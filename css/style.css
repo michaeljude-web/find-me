@@ -1,0 +1,27 @@
+body { margin: 0; font-family: "Segoe UI", Arial, sans-serif; background: #f5f6fa; overflow-x: hidden; }
+
+header { background: #1976d2; color: white; padding: 15px; display: flex; align-items: center; font-size: 18px; position: fixed; top: 0; left: 0; right: 0; box-shadow: 0 2px 5px rgba(0,0,0,0.2); z-index: 1000; }
+
+#menuBtn { font-size: 24px; margin-right: 15px; background: none; border: none; color: white; cursor: pointer; }
+
+main { margin-top: 70px; padding: 20px; }
+
+.card { padding: 20px; background: white; border-radius: 10px; box-shadow: 0 2px 6px rgba(0,0,0,0.2); max-width: 500px; margin: auto; }
+
+#sidebar { height: 100%; width: 250px; position: fixed; top: 0; left: -250px; background: #fff; transition: 0.3s; z-index: 1100; display: flex; flex-direction: column; }
+
+#sidebar nav { flex: 1; background: white; padding-top: 10px; }
+
+#sidebar a { padding: 15px 20px; display: flex; align-items: center; text-decoration: none; color: #333; font-size: 16px; cursor: pointer; gap: 10px; }
+
+#sidebar a:hover { background: #f0f0f0; }
+
+#overlay { position: fixed; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.5); display: none; z-index: 1050; }
+
+.info-item { display: flex; align-items: center; margin: 10px 0; font-size: 15px; }
+
+.info-item i { width: 25px; font-size: 18px; color: #1976d2; margin-right: 10px; text-align: center; }
+
+.help-item { display: flex; align-items: flex-start; margin-bottom: 15px; }
+
+.help-item i { font-size: 20px; margin-right: 10px; color: #1976d2; flex-shrink: 0; width: 25px; text-align: center; margin-top: 19px; }
